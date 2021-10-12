@@ -39,6 +39,7 @@ auto main() -> int
 
       struct SceCtrlData padData;
 
+      pspDebugScreenPrintf("How are we today?\n");
       while (true)
       {
             sceCtrlReadBufferPositive(&padData, 1);
